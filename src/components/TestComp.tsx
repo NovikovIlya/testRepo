@@ -9,5 +9,5 @@ const TestComp = ({count}: TestCompProps) => {
     <div>TestComp</div>
   )
 }
-
+``
 export default TestComp
