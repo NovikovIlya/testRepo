@@ -1,13 +1,13 @@
-import React from 'react'
+type propsTestComp = {
+  count: number;
+};
 
-type TestCompProps = {
-    count: number
-}
-
-const TestComp = ({count}: TestCompProps) => {
+const TestComp = ({ count }: propsTestComp) => {
   return (
-    <div>TestComp</div>
-  )
-}
+    <>
+      <div>count: {count}</div>
+    </>
+  );
+};
 
-export default TestComp
+export default TestComp;
