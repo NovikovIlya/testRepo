@@ -3,7 +3,7 @@ import './App.css';
 import TestComp from './components/TestComp';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   useEffect(() => {
     const fetchData = async () => {
